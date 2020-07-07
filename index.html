@@ -446,6 +446,56 @@ background image behaves.
 <h2>Background Image</h2>
 <p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
 
+<!--Tables -->
+<h2>HTML Tables</h2>
+<p>HTML tables allow web developers to arrange data into rows and columns.</p>
+<h2>Define an HTML Table</h2>
+<p>Each table row is defined with a < tr > tag. Each table header is defined with a < th > tag. Each table data/cell is defined with a  < td > tag.</p>
+<p>By default, the text in < th > elements are bold and centered.</p>
+<p>By default, the text in < td > elements are regular and left-aligned.</p>
+
+<h2>Example</h2>
+<table>
+  <caption>Melody & Liz</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Liz</td>
+    <td>Eye</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>Melody</td>
+    <td>B</td>
+    <td>32</td>
+  </tr>
+</table>
+
+<h2>HTML Table - Add a Border</h2>
+<p>To add a border to a table, use the CSS border property:</p>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+
+  }
+</style>
+
+<h2>HTML Table - Add Cell Padding</h2>
+<p>Cell padding specifies the space between the cell content and its borders.</p>
+<p>If you do not specify a padding, the table cells will be displayed without padding.</p>
+<p>To set the padding, use the CSS padding property:</p>
+<h2>Example</h2>
+th, td {
+  padding: 15px;
+}
+
+<h2>HTML Table - Add a Caption</h2>
+<p>To add a caption to a table, use the < caption > tag </p>
+<p>Note: the caption tag must be insterted immediately after the table tag.</p>
 
 
 
